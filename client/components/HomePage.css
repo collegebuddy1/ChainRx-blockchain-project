@@ -1,0 +1,53 @@
+/* HomePage.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .homepage {
+    text-align: center;
+  }
+  
+  header {
+    color: #fff;
+    padding: 2rem;
+    background-color: #333; /* Change the background color as needed */
+  }
+  
+  .main-content {
+    padding: 2rem;
+  }
+  
+  .animation-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    animation: moveBox 2s infinite alternate;
+  }
+  
+  @keyframes moveBox {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    100% {
+      top: 50px;
+      left: 50px;
+    }
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem;
+  }
+  

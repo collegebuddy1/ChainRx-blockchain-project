@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .connected-wallet {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #3c763d;
+    border-radius: 5px;
+  }
+  
+  .connected-wallet p {
+    margin: 0;
+  }
+  
+  .user-info {
+    margin-top: 20px;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+  }
+  
+  .user-actions {
+    margin-top: 20px;
+  }
+  
+  .transfer-ownership {
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed */
+  
